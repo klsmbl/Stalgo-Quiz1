@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# LaVadami — Laundry Service Landing Page (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+LaVadami is a fictional on-demand laundry and dry cleaning startup offering wash & fold, dry cleaning, and pickup & delivery services for busy urban customers. This repository contains a React single-page landing site for LaVadami.
 
-## Available Scripts
+This project is intentionally a single-page landing (no route switching). Navigation links scroll to sections on the same page.
 
-In the project directory, you can run:
+## What I Implemented
+- Single-page landing with in-page anchors for `Home`, `About`, `Services`, `Team`, and `Contact`.
+- Reusable components: `Header` and `Footer`.
+- Styled with `react-bootstrap` and a Bootswatch theme.
+- Dummy data for services and team stored in `src/data/dummyData.js`.
+- Mobile-first responsive layout.
 
-### `npm start`
+## Page Sections (single page)
+- `#home` — Hero with brief tagline and primary CTA.
+- `#about` — Short background and mission.
+- `#services` — Service list and descriptions.
+- `#team` — Team member bios.
+- `#contact` — Contact info and placeholder form instructions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dummy Data and Assets
+All data used in the app is placeholder/dummy data stored under `src/data/dummyData.js` and uses consistent naming conventions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Visual Assets
+Simple SVG assets (logo and service illustrations) are provided in `src/assets/`:
+- `lavadami-logo.svg` — app logo used in the header
+- `wash-fold.svg`, `dry-clean.svg`, `pickup-delivery.svg` — small illustrations used on the Services section
 
-### `npm test`
+## Contact Info
+- **Email:** `LaVadami@gmail.com`
+- **Phone:** `09982923056`
+- **Address:** `Bonifacio St., San Joaquin, Mabalacat City, Pampanga`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Dependencies
+- React 19
+- react-scripts (Create React App)
+- react-bootstrap
+- bootstrap
+- bootswatch
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Run locally
+From the `frontend` folder, run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```powershell
+cd c:\\Users\\PC\\Downloads\\resources\\frontend
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open `http://localhost:3000` to view the landing page.
 
-### `npm run eject`
+## Notes
+- No routing is used; the site is a single static SPA landing page per requirements.
+- No AI-generated designs were used. All assets are placeholders.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
+If you'd like, I can add a contact form handler mock or wire a simple scheduling flow next.
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

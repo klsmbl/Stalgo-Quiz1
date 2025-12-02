@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
+  <rect width="120" height="80" rx="8" fill="#fff3cd" stroke="#ffeeba"/>
+  <g transform="translate(14,10)" fill="#fd7e14">
+    <path d="M20 10h20v30H20z" />
+    <circle cx="70" cy="25" r="12" />
+  </g>
+  <text x="60" y="72" font-size="9" text-anchor="middle" fill="#6c757d">Dry Cleaning</text>
+</svg>
